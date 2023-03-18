@@ -6,20 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Псевдоклассы</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="edit.css">
 </head>
 
 <body>
-    <header>
+    <header class="container flex primary-header">
         <div class="logo header-logo">Ocean style</div>
         <nav class="primary-navigation">
-            <ul>
+            <ul class="flex">
                 <li><a href="#">Главная</a></li>
                 <li><a href="#">О сайте</a></li>
                 <li class="button header-button"><a href="#">Стать автором</a></li>
             </ul>
         </nav>
     </header>
-    <div class="container">
+    <div class="container flex page">
         <main class="content">
             <section class="new-posts flex flex-wrap">
                 <article class="post-item"><img src="img/ocean.jpg" alt="">
@@ -74,18 +76,20 @@
                 </article>
             </section>
         </main>
-        <aside class="primary-aside">
+        <aside class="primary-aside flex">
             <article class="daily-quote">Лишь море подарит мне свободу!</article>
-            <article class="categories"><ul>
+            <article class="categories">
+                <h2>Рубрики</h2>
+                <ul>
                 <li><a href="#">Океаны</a></li>
                 <li><a href="#">Моря</a></li>
                 <li><a href="#">Реченки</a></li>
             </ul></article>
         </aside>
     </div>
-    <footer class="primary-footer">
-        <div class="logo footer-logo"></div>
-        <div class="link-table">
+    <footer class="primary-footer container flex">
+        <div class="logo footer-logo"> Ocean style</div>
+        <div class="link-table container flex">
             <ul>
                 <li><a href="#">lorem</a></li>
                 <li><a href="#">lorem</a></li>
@@ -109,7 +113,7 @@
             </ul>
         </div>
         <div class="social-networks">
-            <ul>
+            <ul class="flex">
                 <li><a href="https://vk.com"><img
                             src="https://www.dropbox.com/team/team_logo/dbtid%3AAACHQZx4adzBZiBCpy7P4xtzn3UNxr-wcoE?v=1634126598663"
                             alt=""></a></li>

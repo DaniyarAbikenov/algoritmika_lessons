@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa&family=Pacifico&family=Roboto&family=Rubik+Dirt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+main img{
+    max-width: 300px;
+}
+
+.social-networks img{
+    max-width: 60px;
+}
+
+.social-networks ul{
+    gap: 20px;
+}
+
+.primary-header, .primary-footer{
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    background: linear-gradient(#06246F,#123EAB);
+}
+
+.primary-header{
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.new-posts{
+    justify-content: space-between;
+    row-gap: 20px;
+    gap: 7px;
+}
+
+
+.post-item{
+    padding: 15px 20px;
+    background: rgb(11,0,194);
+    background: linear-gradient(180deg, rgba(11,0,194,1) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.post-item img{
+    border-radius: 10px;
+}
+
+.page{
+    margin-bottom: 50px;
+    gap: 20px;
+    justify-content:  space-around;
+}
+
+.link-table{
+    width: 30%;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #fafafa;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Roboto";
+    cursor: default;
+    user-select: none;
+}
+
+.primary-navigation ul{
+    gap: 20px;
+}
+.primary-navigation li{
+    padding: 10px;
+}
+
+.primary-navigation a{
+    color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.post-item .read-button{
+    padding: 10px;
+    background: #ffa600;
+    border-radius: 10px;
+}
+
+.read-button a{
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+}
+
+.primary-aside{
+    align-self: flex-start;
+    position: sticky;
+    top: 20px;
+    min-width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid lightblue;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 20px;
+    
+}
+
+.daily-quote{
+    text-align: justify;
+}
+.daily-quote::before,.daily-quote::after{
+    font-size: 20px;
+    color:#ffa600; 
+}
+.daily-quote::before{
+    content: '\201c';
+    margin-right: 2px;
+}
+
+.daily-quote::after{
+    content: '\201d  \00a9';
+    margin-left: 2px;
+}
+.categories ul li{
+    margin-top: 10px;
+}
+
+.post-item{
+    color: #fafafa;
+    font-family: "Roboto", sans-serif;
+}
+
+.post-item h2{
+    font-size: 20px;
+}
