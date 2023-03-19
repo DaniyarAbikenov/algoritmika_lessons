@@ -32,21 +32,29 @@
     transform: scale(1.0);
 }
 .logo{
+    padding: 10px 2px;
     position: relative;
 }
 
-.logo::before{
+
+.header-logo::before{
+    z-index: 1;
+    content: " ";
     height: 100%;
-    /* z-index: -1; */
-    content: "";
     position: absolute;
-    /* top: 0; */
-    /* left: 0; */
+    top: 0;
+    left: 0;
     background: #ffa600;
     width: 0px;
+    border-radius: 10px;
 }
 
-.logo:hover::before{
+.logo p{
+    z-index: 6;
+    position: relative;
+}
+
+.header-logo:hover::before{
     width: 100%;
     transition: 1s linear all;
 }
